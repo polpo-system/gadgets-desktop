@@ -22,8 +22,9 @@ Without this package, `Desktops.Open Oberon.Desk` opens a new, empty desktop.
                                machine (XBrowser on x86, ABrowser on ARM, RBrowser on the others)
     test/DesktopTest.Mod
 
-The desktop uses the Finder (gadgets-finder) and the Documents panel the Directories gadget
-(gadgets-directories).
+The desktop uses the Finder (gadgets-finder), the Documents panel the Directories gadget
+(gadgets-directories), and the pictures of the icons in both panels are Rembrandt frames
+(gadgets-rembrandt).
 
 ## Tests
 
