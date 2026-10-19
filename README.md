@@ -17,10 +17,13 @@ Without this package, `Desktops.Open Oberon.Desk` opens a new, empty desktop.
 ## What is here
 
     share/Oberon.Desk          the desktop, unchanged from Linux Oberon
-    tools/Definitions.Tool     the interfaces of the system, by module
+    tools/Definitions.Tool     the interfaces of the system, by module: a click on a name shows it
+    src/Definitions.Mod        Definitions.ShowDef Module, the interface with the browser of the
+                               machine (XBrowser on x86, ABrowser on ARM, RBrowser on the others)
     test/DesktopTest.Mod
 
-The desktop uses the Finder (gadgets-finder).
+The desktop uses the Finder (gadgets-finder) and the Documents panel the Directories gadget
+(gadgets-directories).
 
 ## Tests
 
