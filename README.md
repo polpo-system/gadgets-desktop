@@ -26,6 +26,8 @@ The desktop uses the Finder (gadgets-finder), the Documents panel the Directorie
 (gadgets-directories), and the pictures of the icons in both panels are Rembrandt frames
 (gadgets-rembrandt).
 
+Nersissa, the package manager of the desktop (`Nersissa.Open`, package nersissa), comes with it.
+
 ## Tests
 
     DesktopTest.Run      2 checks: the desktop opened as a document, the Finder loaded; it needs
